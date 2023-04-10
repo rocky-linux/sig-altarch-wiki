@@ -1,4 +1,4 @@
-# REPLACEME Wiki
+# SIG/AltArch Wiki
 
 ## Links
 
