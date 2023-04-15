@@ -8,7 +8,7 @@ tags:
   - visionfive
 ---
 
-[MIN_UBOOT_FIRM_VER]: v2.10.4
+[MIN_UBOOT_FIRM_VER]: v2.11.5
 
 # The VisionFive 2 SBC's Wiki
 
