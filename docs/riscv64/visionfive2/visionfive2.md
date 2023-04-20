@@ -8,8 +8,6 @@ tags:
   - visionfive
 ---
 
-[MIN_UBOOT_FIRM_VER]: v2.11.5
-
 # The VisionFive 2 SBC's Wiki
 
 The VisionFive 2 SBC is the second generation of SBC in the VisionFive SBC lineup. This lineup of SBCs contains SoCs with the CPUs that use the RISC-V open computing ISA.
@@ -64,16 +62,16 @@ Following are the necessary arch/board specific software repositories. These are
 
 ## Installation
 
-To install Rocky Linux on the VisionFive 2 SBC, there is one pre-requisite that needs to be satisfied. That is to update the board firmware to [MIN_UBOOT_FIRM_VER].
+To install Rocky Linux on the VisionFive 2 SBC, there is one pre-requisite that needs to be satisfied. That is to update the board firmware to v2.11.5.
 
 **Editor's note: StarFive (the hardware vendor) is almost done sending in mainlining patches for u-boot and we should be able to switch to upstream u-boot soon. Our u-boot package for the VisionFive 2 should automatically update the board firmware to whatever version we support. But the following section is present nonetheless, for the users who have an outdated firmware than what we (Rocky Linux) have a minimum spec bar for.**
 
 ### Pre-requisite: Update board firmware
 
 1. Download the following files:
-- [sdcard.img](https://github.com/starfive-tech/VisionFive2/releases/download/[MIN_UBOOT_FIRM_VER]/sdcard.img)
-- [u-boot-spl.bin.normal.out](https://github.com/starfive-tech/VisionFive2/releases/download/[MIN_UBOOT_FIRM_VER]/u-boot-spl.bin.normal.out)
-- [visionfive2_fw_payload.img](https://github.com/starfive-tech/VisionFive2/releases/download/[MIN_UBOOT_FIRM_VER]/visionfive2_fw_payload.img)
+- [sdcard.img](https://github.com/starfive-tech/VisionFive2/releases/download/VF2_v2.8.0/sdcard.img) (this image is from release v2.8.0)
+- [u-boot-spl.bin.normal.out](https://github.com/starfive-tech/VisionFive2/releases/download/VF2_v2.11.5/u-boot-spl.bin.normal.out)
+- [visionfive2_fw_payload.img](https://github.com/starfive-tech/VisionFive2/releases/download/VF2_v2.11.5/visionfive2_fw_payload.img)
 
 2. `sudo dd if=sdcard.img conv=sync status=progress bs=1M of=/dev/sdX`
 
