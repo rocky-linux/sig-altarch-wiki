@@ -1,6 +1,6 @@
 ---
 title: Supported SBC Hardware
-author: Bryan aka codedude
+author: codedude
 ---
 
 # Rocky Linux Supported SBC Hardware Models
