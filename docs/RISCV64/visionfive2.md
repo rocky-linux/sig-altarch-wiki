@@ -110,3 +110,17 @@ The board firmware has now been updated!
 ## Current things that are WIP
 
 A Rocky Linux image :stuck_out_tongue_closed_eyes:
+
+## Maintainers
+
+There are several developers who are working on the RISC-V port of Rocky Linux in general, but following are all the maintainers who are supporting the VisionFive 2 SBC. These usernames are what they use on the [Rocky Linux Mattermost chat](https://chat.rockylinux.org/).
+
+ - [@codedude](https://git.resf.org/codedude)
+ - [@skip77](https://git.resf.org/skip)
+ - [@neil](https://git.resf.org/neil)
+ - [@pgreco](https://git.resf.org/pgreco)
+ - [@tgo](https://git.resf.org/tgo)
+ - [@mustafa](https://git.resf.org/mustafa)
+ - [@alangm](https://git.resf.org/alangm)
+ - [@sherif](https://git.resf.org/sherif)
+ - [@thefossguy](https://git.resf.org/thefossguy)
