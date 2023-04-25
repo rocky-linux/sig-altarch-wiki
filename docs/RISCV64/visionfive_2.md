@@ -1,5 +1,5 @@
 ---
-title: VisionFive 2
+title: StarFive VisionFive 2
 author: Pratham Patel
 tested with: TBD
 tags:
@@ -20,7 +20,7 @@ This Wiki contains the necessary information a user needs to know before using R
 
 | Item          | Description                                                                                            |
 |---------------|--------------------------------------------------------------------------------------------------------|
-| Processor/SoC | StarFive JH7110 (`rv64imafdcbx` with up-to 1.5GHz max freq)                                                  |
+| Processor/SoC | StarFive JH7110 (`rv64imafdcbx` with up-to 1.5GHz max freq)                                            |
 | Memory        | LPDDR4: 2GB/4GB/8GB                                                                                    |
 | Storage       | SD card slot                                                                                           |
 |               | SPI flash for u-boot                                                                                   |
