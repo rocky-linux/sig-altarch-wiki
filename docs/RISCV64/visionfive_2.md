@@ -68,6 +68,8 @@ To install Rocky Linux on the VisionFive 2 SBC, there is one pre-requisite that 
 
 ### Pre-requisite: Update board firmware
 
+**NOTE: PLEASE READ THESE STEPS AND CAREFULLY FOLLOW THEM. IF DONE INCORRECTLY, YOUR BOARD MAY GET BRICKED!**
+
 1. Download the following files:
 - [sdcard.img](https://github.com/starfive-tech/VisionFive2/releases/download/VF2_v2.8.0/sdcard.img) (this image is from release v2.8.0)
 - [u-boot-spl.bin.normal.out](https://github.com/starfive-tech/VisionFive2/releases/download/VF2_v2.11.5/u-boot-spl.bin.normal.out)
