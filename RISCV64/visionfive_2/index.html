@@ -677,6 +677,7 @@
 <p>To install Rocky Linux on the VisionFive 2 SBC, there is one pre-requisite that needs to be satisfied. That is to update the board firmware to v2.11.5.</p>
 <p><strong>Editor's note: StarFive (the hardware vendor) is almost done sending in mainlining patches for u-boot and we should be able to switch to upstream u-boot soon. Our u-boot package for the VisionFive 2 should automatically update the board firmware to whatever version we support. But the following section is present nonetheless, for the users who have an outdated firmware than what we (Rocky Linux) have a minimum spec bar for.</strong></p>
 <h3 id="pre-requisite-update-board-firmware">Pre-requisite: Update board firmware<a class="headerlink" href="#pre-requisite-update-board-firmware" title="Permanent link">&para;</a></h3>
+<p><strong>NOTE: PLEASE READ THESE STEPS AND CAREFULLY FOLLOW THEM. IF DONE INCORRECTLY, YOUR BOARD MAY GET BRICKED!</strong></p>
 <ol>
 <li>Download the following files:</li>
 <li><a href="https://github.com/starfive-tech/VisionFive2/releases/download/VF2_v2.8.0/sdcard.img">sdcard.img</a> (this image is from release v2.8.0)</li>
@@ -748,7 +749,7 @@ flashcp -v visionfive2_fw_payload.img /dev/mtd1
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 25, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 29, 2023</span>
       
     
   </small>
