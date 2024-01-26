@@ -2,37 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sig-altarch.rocky.page/</loc>
-         <lastmod>2024-01-12</lastmod>
+         <lastmod>2024-01-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sig-altarch.rocky.page/RISCV64/visionfive_2/</loc>
-         <lastmod>2024-01-12</lastmod>
+         <lastmod>2024-01-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sig-altarch.rocky.page/RPi/solutions/solutions/</loc>
-         <lastmod>2024-01-12</lastmod>
+         <lastmod>2024-01-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sig-altarch.rocky.page/events/meeting-notes/2023-10-20/</loc>
-         <lastmod>2024-01-12</lastmod>
+         <lastmod>2024-01-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sig-altarch.rocky.page/events/meeting-notes/2023-12-15/</loc>
-         <lastmod>2024-01-12</lastmod>
+         <lastmod>2024-01-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sig-altarch.rocky.page/events/meeting-notes/2024-01-12/</loc>
-         <lastmod>2024-01-12</lastmod>
+         <lastmod>2024-01-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sig-altarch.rocky.page/events/meeting-notes/2024-01-26/</loc>
+         <lastmod>2024-01-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sig-altarch.rocky.page/support/hardware/supported/</loc>
-         <lastmod>2024-01-12</lastmod>
+         <lastmod>2024-01-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
